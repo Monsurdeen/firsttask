@@ -7,6 +7,8 @@ import Portfolio from "./component/portfolio"
 import Journal from "./component/journal";
 import Achievement from "./component/achievement";
 import Contact from "./component/contact";
+import Service from "./component/service";
+import About from "./component/about";
 
 
 
@@ -25,11 +27,14 @@ export default function Page() {
      
       <Header />
       <Home />
+      <Service />
       <Portfolio />
+      <Achievement />
       <Logo />
       <Journal />
-      <Achievement />
+     
       <Contact />
+      <About />
 
 
     </div>
